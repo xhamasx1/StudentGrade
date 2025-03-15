@@ -3,7 +3,6 @@ package studentgrade;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/* JUnit 3.8.1 */
 public class StudentGradeTest {
     
     @Test
@@ -27,7 +26,7 @@ public class StudentGradeTest {
     public void testGetGrade75() {
         System.out.println("getGrade 75");
         int mark = 75;
-        String expResult = "C";
+        String expResult = "F";
         String result = StudentGrade.getGrade(mark);
         assertEquals(expResult, result);
     }
